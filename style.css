@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-BoldItalic.ttf);
+}
+
+.logo {
+    background-color: rgb(51, 49, 49);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo>img {
+    width: 230px;
+    height: 80px;
+}
+
+.logo>input {
+    background-color: rgb(51, 49, 49);
+    color: white;
+    width: 85px;
+    height: 45px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 18px 8px;
+}
+
+.logo>h3 {
+    font-family: sans-serif;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    font-size: 30px;
+    padding: 4px;
+    margin: 18px 8px;
+}
+
+.logo>input:active {
+    background-color: white;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    border: 2px solid rgb(51, 49, 49);
+}
+
+#signupform {
+    background-color: rgb(51, 49, 49);
+    /* background-color: rgb(28, 28, 92); */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 16px;
+    width: 300px;
+    height: max-content;
+    margin: 80px auto;
+    padding: 25px;
+}
+
+#signupinput>p {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#signupinput>label {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#signupinput {
+    padding: 10px;
+    margin-top: 3px;
+}
+
+#account>h3 {
+    font-family: roboto;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.inputs {
+    width: 85%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: rgb(51, 49, 49);
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-top: 1px;
+}
+
+.signupbutton {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signupbutton>input,
+.signupbutton>button {
+    background-color: rgb(51, 49, 49);
+    color: white;
+    width: 115px;
+    height: 35px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.signupbutton>input:active,
+.signupbutton>button:active {
+    background-color: white;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    border: 2px solid rgb(51, 49, 49);
+}
+
+#questionform {
+    background-color: rgb(51, 49, 49);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 16px;
+    width: 600px;
+    height: max-content;
+    margin: 80px auto;
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#questionform>p {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+#questionform>input {
+    margin-top: 10px;
+}
+
+#questionform>label {
+    font-size: 17px;
+}
+
+#submit {
+    margin-top: 15px;
+}
+
+#showscore {
+    display: none;
+}
+
+#scoreform {
+    background-color: rgb(51, 49, 49);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 16px;
+    width: 400px;
+    height: max-content;
+    margin: 80px auto;
+    padding: 25px;
+}
+
+#scoreform2>p {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 8px;
+
+}
+
+#heading1 {
+    margin-top: 12px;
+}
+
+#button34 {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        background-color: rgb(51, 49, 49);
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .logo>img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .logo>input {
+        background-color: rgb(51, 49, 49);
+        color: white;
+        width: 85px;
+        height: 35px;
+        font-size: 15px;
+        border: 2px solid white;
+        border-radius: 10px;
+        /* padding: 4px; */
+        cursor: pointer;
+        margin: 13px 8px;
+    }
+
+    .signupbutton>input,
+    .signupbutton>button {
+        background-color: rgb(51, 49, 49);
+        color: white;
+        width: 125px;
+        height: 35px;
+        font-size: 16px;
+        border: 2px solid white;
+        border-radius: 10px;
+        /* padding: 5px; */
+        cursor: pointer;
+    }
+
+    #btnsignup1 {
+        font-size: 18px;
+    }
+
+    #user {
+        font-size: 18px;
+    }
+
+    #questionform {
+        background-color: rgb(51, 49, 49);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border-radius: 16px;
+        width: 300px;
+        height: max-content;
+        margin: 80px auto;
+        padding: 25px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    #questionform>p {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    #questionform>label {
+        font-size: 15px;
+    }
+    #scoreform {
+        width: 300px;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="logo">
+            <img src="Quiz.png">
+            <h3 id="user"> </h3>
+        </div>
+        <div id="questionform">
+            <p id="question">abc</p>
+            <input type="radio" name="answer" id="ans1" class="answer">
+            <label id="option1">abc</label><br>
+            <input type="radio" name="answer" id="ans2" class="answer">
+            <label id="option2">abc</label><br>
+            <input type="radio" name="answer" id="ans3" class="answer">
+            <label id="option3">abc</label><br>
+            <input type="radio" name="answer" id="ans4" class="answer">
+            <label id="option4">abc</label><br>
+            <div class="signupbutton">
+                <input type="button" id="submit" value="Next">
+            </div>
+        </div>
+    </div>
+    <div id="showscore">
+        <div id="scoreform">
+            <div id="account">
+                <h3>Your Result Is Here</h3>
+                <hr>
+            </div>
+            <div id="scoreform2">
+                <p id="heading1"></p>
+                <p id="heading2"> </p>
+                <p id="heading3"> </p>
+            </div>
+            <div class="signupbutton">
+                <button id="button34" onclick="location.reload()" type="button" class="btn btn-primary">Play
+                    Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+    <script>
+        var user = document.getElementById("user")
+
+        user.innerText = "Welcome ," + (localStorage.getItem("firstname"))
+
+    </script>
+</body>
+
+</html>
